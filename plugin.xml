@@ -2,14 +2,31 @@
 <plugin
     xmlns="http://www.phonegap.com/ns/plugins/1.0"
     id="de.rwthaachen.rz.rwthapp.plugins.wp8language"
-    version="0.1.0">
+    version="0.2.0">
 
-  <name>German Language Plugin for Windows Phone 8</name>
+  <name>German Language Plugin for Windows Phone 8 / 8.1</name>
   
   <platform name="wp8">
     <config-file target="Properties/WMAppManifest.xml" parent="/Deployment/Languages">
         <Language code="de-DE"/>
         <Language code="en-US"/>
+    </config-file>
+  </platform>
+  
+  <platform name="windows">
+	<config-file target="package.windows.appxmanifest" parent="/Package/Resources">
+		<Resource Language="DE-DE" />
+        <Resource Language="EN-US" />
+    </config-file>
+	
+	<config-file target="package.windows10.appxmanifest" parent="/Package/Resources">
+		<Resource Language="DE-DE" />
+        <Resource Language="EN-US" />
+    </config-file>
+	
+	<config-file target="package.phone.appxmanifest" parent="/Package/Resources">
+		<Resource Language="DE-DE" />
+        <Resource Language="EN-US" />
     </config-file>
   </platform>
 
