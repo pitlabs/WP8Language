@@ -1,7 +1,7 @@
 {
   "name": "de.rwthaachen.rz.rwthapp.plugins.wp8language",
   "version": "0.3.0",
-  "description": "Cordova InAppBrowser Plugin",
+  "description": "Windows Language Plugin",
   "cordova": {
     "id": "de.rwthaachen.rz.rwthapp.plugins.wp8language",
     "platforms": [
