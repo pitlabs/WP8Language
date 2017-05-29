@@ -17,7 +17,7 @@
 	"language",
     "cordova",
     "ecosystem:cordova",
-    "cordova-windows",
+    "cordova-windows"
   ],
   "author": "IT Center, RWTH Aachen University",
   "license": "MIT"
